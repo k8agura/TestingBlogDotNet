@@ -1,0 +1,28 @@
+_id: req_35ba884035064b3d9b4f9e121f9c818c
+type: Request
+parentId: wrk_03c1a62195394b059de4921afc9c4c4f
+modified: 1682632026279
+created: 1682618517143
+url: http://localhost:4444/auth/me
+name: Get me
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDRhNWM4NjkzNjQzNmVlYWVjNzQ2ZTYiLCJpYXQiOjE2ODI2MzA5MzYsImV4cCI6MTY4NTIyMjkzNn0.dHXREkCScvbIoQsBCJPygJJJkpIJV1-F55IS6_S1F8s
+  disabled: false
+metaSortKey: -1682618517143
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

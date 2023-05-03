@@ -1,0 +1,32 @@
+_id: req_7f204f5a2b614246b2199823139df66c
+type: Request
+parentId: wrk_03c1a62195394b059de4921afc9c4c4f
+modified: 1683105623452
+created: 1682710218913
+url: http://localhost:4444/posts
+name: create post
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Статья на удаление",
+    	"text": "Удали эту статью",
+    	"tags": ["delete", "this"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDRhNWM4NjkzNjQzNmVlYWVjNzQ2ZTYiLCJpYXQiOjE2ODI2MzA5MzYsImV4cCI6MTY4NTIyMjkzNn0.dHXREkCScvbIoQsBCJPygJJJkpIJV1-F55IS6_S1F8s
+metaSortKey: -1682710218913
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

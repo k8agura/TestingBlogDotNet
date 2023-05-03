@@ -1,0 +1,23 @@
+_id: req_1d7c32b2ba724bf7884ac0b58ecde0ff
+type: Request
+parentId: wrk_03c1a62195394b059de4921afc9c4c4f
+modified: 1683105869187
+created: 1683105631256
+url: http://localhost:4444/posts/645227d2ec8e28c3414b9dd9
+name: delete post
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDRhNWM4NjkzNjQzNmVlYWVjNzQ2ZTYiLCJpYXQiOjE2ODMxMDU4NTksImV4cCI6MTY4NTY5Nzg1OX0.nLbjiFv9dNA1XYCLnxOUj9X8i38MtgkU--vX6260_tY
+metaSortKey: -1683105631256
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

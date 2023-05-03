@@ -1,0 +1,32 @@
+_id: req_0178db9c664748818e56c518baf2d863
+type: Request
+parentId: wrk_03c1a62195394b059de4921afc9c4c4f
+modified: 1683106763689
+created: 1683106551654
+url: http://localhost:4444/posts/644c204e942e833d0ccd1ee6
+name: Update post
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Статья на обновление",
+    	"text": "Обновление удалось молодцы",
+    	"tags": ["updated", "post"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDRhNWM4NjkzNjQzNmVlYWVjNzQ2ZTYiLCJpYXQiOjE2ODMxMDU4NTksImV4cCI6MTY4NTY5Nzg1OX0.nLbjiFv9dNA1XYCLnxOUj9X8i38MtgkU--vX6260_tY
+metaSortKey: -1683106551654
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

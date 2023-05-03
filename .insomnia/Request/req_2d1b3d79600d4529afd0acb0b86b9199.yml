@@ -1,0 +1,21 @@
+_id: req_2d1b3d79600d4529afd0acb0b86b9199
+type: Request
+parentId: wrk_03c1a62195394b059de4921afc9c4c4f
+modified: 1683106662470
+created: 1683046901365
+url: http://localhost:4444/posts/644c204e942e833d0ccd1ee6
+name: get one post
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683046901365
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

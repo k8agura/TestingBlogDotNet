@@ -1,0 +1,30 @@
+_id: req_dd4e09a6d8a54098b5d849f66d016a99
+type: Request
+parentId: wrk_03c1a62195394b059de4921afc9c4c4f
+modified: 1682710261391
+created: 1682630866647
+url: http://localhost:4444/auth/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "yandex@test.ru",
+    	"password": "12345"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+metaSortKey: -1682630866648
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
